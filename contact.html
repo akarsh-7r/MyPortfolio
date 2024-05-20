@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .contact-info {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+        }
+        .contact-info h2 {
+            margin-top: 0;
+        }
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+        .contact-info .field {
+            margin-bottom: 20px;
+        }
+        .contact-info .field label {
+            display: block;
+            font-weight: bold;
+        }
+        .contact-info .field input[type="text"],
+        .contact-info .field input[type="email"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Information</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="content">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="akarsh09112@outlook.com" readonly>
+            </div>
+            <div class="field">
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" value="9693785972" readonly>
+            </div>
+            <div class="field">
+                <label for="linkedin">LinkedIn Account:</label>
+                <input type="text" id="linkedin" name="linkedin" value="www.linkedin.com/in/akarsh-661126249" readonly>
+            </div>
+            <div class="field">
+                <label for="github">GitHub Link:</label>
+                <input type="text" id="github" name="github" value="hub-https://github.com/akarsh-7r" readonly>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
