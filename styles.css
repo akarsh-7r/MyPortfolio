@@ -7,15 +7,15 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Inter';
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
     color: #333;
     font-family: 'Inter';
 }
 
 /* Header styles */
 header {
-    background-color: #007bff;
+    background-color: #4BA6D2;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 
 .project h2 {
-    color: #007bff; /* Blue */
+    color: #76C1E4; /* Blue */
     margin-bottom: 10px;
 }
 
