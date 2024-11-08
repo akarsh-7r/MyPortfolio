@@ -4,70 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-             background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);; /* Transparent blue background */
-            font-size: 18px; /* Increased font size */
-            font-family: Arial, sans-serif; /* Specify font family */
-            color: #000; /* Black text color */
-            font-weight: bold; /* Bold font weight */
-        }
-        .content {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
-        }
-        .content h1 {
-            font-size: 36px; /* Increase font size for heading */
-            color: #ff0000; /* Red font color */
-        }
-        .content h2 {
-            font-size: 28px; /* Increase font size for subheading */
-            color: #ff0000; /* Red font color */
-            margin-top: 30px; /* Add space between sections */
-        }
-        .content p {
-            font-size: 20px; /* Increase font size for paragraphs */
-            line-height: 1.5; /* Increase line height for readability */
-        }
-        .content ul {
-            margin-bottom: 30px; /* Add space between sections */
-        }
-        .content ul li {
-            color: #020703; /* Green text color */
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="content">
-        <h2>Welcome</h2>
-        <p>I am a third-year student at National Institute Raipur, pursuing my passion for programming and technology. With a keen interest in problem-solving and innovation, I constantly strive to expand my knowledge and skills in the field of computer science. Welcome to my portfolio!</p>
-        <p>Feel free to explore thorough and share your feedbacks to the contacts provides.</p>
-        <p>Your insights will be very helpfull in my growth as a proggrammer and good being.</p>
-        
-        <h2>Achievements</h2>
-        <ul>
-            <li>Solved 600+ problems: Across platforms like Leetcode, GfG, Code Studio, etc.</li>
-            <li>Ranked 200: Out of 5173 students in my college in GfG.</li>
-            <li>Coding score of 1200+: On Geeks for Geeks.</li>
-            <li>3 star: on CodeChef</li>
-            <li>2nd rank: In 12th CBSE boards among 200+ students.</li>
-        </ul>
-    </section>
+  <header>
+    <div class="navBar">
+        <div class="navContent">
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <button class="resume" onclick="location.href='Akarsh-Resume.pdf'">Resume</button>
+        </div>
+    </div>
+  </header>
+  <div class="detailsSection">
+    <div class="details">
+        <span style="color: #21b6a8">Hi, my name is</span>
+        <h1 style="color: white">Akarsh.</h1>
+        <h2 style="color: white">I build things for the web.</h2>
+       <div class="intro">
+        <span style="color: white">I am a third-year student at National Institute Raipur, pursuing my passion for programming and technology. With a keen interest 
+            in problem-solving and innovation, I constantly strive to expand my knowledge and skills in the field of computer science.</span>
+       </div>
+       <button class="chechOut" >Check out my projects!</button>
+
+    </div>
+  </div>
 </body>
 </html>

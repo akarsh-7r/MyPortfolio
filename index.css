@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    font-family: 'Inter';
+}
+.navBar{
+
+
+padding: 30px ;
+
+}
+.navContent{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    font-size: 21px;
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 35px;
+}
+.resume{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    border: 2px solid #21b6a8;
+    color: #21b6a8;
+}
+.detailsSection{
+height:80vh;
+
+position: relative;
+}
+.details{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width:800px;
+    height:45vh;
+
+position: absolute;
+top: 30px;
+left: 250px;
+}
+h1,h2{
+    font-size: 60px;
+}
+.intro{
+    width:70%;
+}
+.chechOut{
+    padding:10px 25px 10px 25px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: #21b6a8;
+    border: 2px solid #21b6a8;
+}
